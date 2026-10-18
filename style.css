@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(231, 224, 224) !important;
+}
+/* Page Setup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; /* Darker grey background so boxes stand out */
+    color: #000000;
+}
+
+/* 1. Header */
+#top-bar {
+    background-color: darkslategray;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* 2. Navbar (3 Divs Layout) */
+#navbar {
+    background-color: #003366; /* Dark Blue */
+    padding: 15px;
+    border-bottom: 3px solid #000000;
+}
+
+#nav-left {
+    float: left;
+    width: 25%;
+}
+
+#nav-left a {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#nav-center {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+#nav-center a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+#nav-right {
+    float: right;
+    width: 25%;
+    text-align: right;
+}
+
+#nav-right a {
+    color: #ffffff;
+    background-color: #cc0000; /* Red Buttons */
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+/* 3. Home Section */
+#home {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+
+#main-button {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* 4. Common Sections Style */
+#about, #skills, #projects, #contact {
+    background-color: #ffffff;
+    width: 70%;
+    margin: 20px auto; /* Centers the whole section box */
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #003366; /* Dark Blue Border for sharp look */
+    border-radius: 8px;
+}
+
+/* 5. Skills Boxes Inside Skills Section */
+#skills div {
+    display: inline-block;
+    background-color: #003366;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* 6. Project Boxes Inside Projects Section */
+#projects div {
+    display: inline-block;
+    width: 28%;
+    background-color: #f0f8ff; /* Soft Blue tint inside project card */
+    border: 2px solid #003366;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+/* 7. Footer */
+#footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
